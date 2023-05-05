@@ -1,0 +1,9 @@
+name: trigger_apps_automation_build
+
+on:
+  push:
+jobs:
+  call-workflow-passing-data:
+    uses: piplcom/.github/workflows/666_use_cypress_action.yml@main
+    with:
+      config-path: .github/labeler.yml

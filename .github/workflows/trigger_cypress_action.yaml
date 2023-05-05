@@ -1,3 +1,8 @@
+name: trigger_cypress_action
+
+on:
+  push:
+
 jobs:
   call-workflow-passing-data:
     uses: piplcom/AppsAutomation/.github/workflows/666_use_cypress_action.yml@main

@@ -1,7 +1,7 @@
 name: trigger_cypress_action
 
 on:
-  push:
+  workflow_dispatch:
 
 jobs:
   call-workflow-passing-data:

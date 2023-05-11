@@ -5,4 +5,4 @@ on:
 
 jobs:
   call-workflow-passing-data:
-    uses: piplcom/AppsAutomation/.github/workflows/666_use_cypress_action.yml@main
+    uses: SaharRefua-Pipl/piplcom/AppsAutomation/.github/workflows/666_use_cypress_action.yml@main

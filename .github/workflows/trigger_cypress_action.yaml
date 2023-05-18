@@ -5,4 +5,4 @@ on:
 
 jobs:
   call-crm-cypress-workflow:
-    uses: SaharRefua-Pipl/AppsAutomation/.github/workflows/207_crm_cypress_tests.yml@main
+    uses: piplcom/AppsAutomation/.github/workflows/207_crm_cypress_tests.yml@main
